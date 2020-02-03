@@ -19,3 +19,8 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
+
+- script: |
+    uname -a
+    echo hello world 
+  displayName: 'test script'
