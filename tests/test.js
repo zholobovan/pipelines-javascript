@@ -7,7 +7,7 @@ describe('String', function () {
 
             assert.equal(-1, myString.indexOf('x'));
             assert.equal(-1, myString.indexOf('y'));
-            assert.equal(-1, 1);
+            assert.equal(-1, -1);
         });
     });
 });
